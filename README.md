@@ -26,6 +26,14 @@ sudo crontab -e
 @reboot /home/hamedsj/.update_battery.sh
 ```
 
+## Change timeout of battery info refresh
+For changing time of refresh, open `cron_script.sh` file and change argument of python script
+```bash
+#!/bin/bash
+
+#change 30 to everything (second) you want
+python3 /path/of/repo/battery_refresher.py 30
+```
 ## License
 The MIT License
 
