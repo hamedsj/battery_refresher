@@ -23,7 +23,7 @@ sudo crontab -e
 ```
   and add this line to end of the table
 ```bash
-@reboot /home/hamedsj/.update_battery.sh
+@reboot /path/of/repo/cron_script.sh
 ```
 
 ## Change timeout of battery info refresh
